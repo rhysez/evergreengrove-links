@@ -62,13 +62,13 @@ body {
     background-color: var(--sand-light);
     border-radius: 1rem;
     border: 2px solid var(--sand-dark);
-    transition: all ease 0.2s;
+    transition: all ease 0.1s;
     cursor: pointer;
 }
 
 .link:hover {
     transform: scale(1.025);
-    opacity: 80%;
+    border-color: var(--sand-dark);
 }
 
 .link_text {
