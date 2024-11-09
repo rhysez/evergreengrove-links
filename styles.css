@@ -10,8 +10,6 @@
     --coffee-dark: #422F26;
 }
 
-
-
 body {
     background-color: var(--forest-light);
 }
@@ -22,7 +20,6 @@ body {
     margin: auto;
     justify-content: center;
     align-items: center;
-    height: 90svh;
     gap: 4rem;
     width: 500px;
 }
