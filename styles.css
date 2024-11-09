@@ -64,11 +64,12 @@ body {
     border: 2px solid var(--sand-dark);
     transition: all ease 0.1s;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .link:hover {
     transform: scale(1.025);
-    border-color: var(--sand-dark);
 }
 
 .link_text {
@@ -91,3 +92,11 @@ body {
     width: 5rem;
     margin-top: 4rem;
 }
+
+#disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transition: none;
+    pointer-events: none;
+}
+
