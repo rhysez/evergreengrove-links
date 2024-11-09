@@ -10,6 +10,8 @@
     --coffee-dark: #422F26;
 }
 
+
+
 body {
     background-color: var(--forest-light);
 }
@@ -25,8 +27,19 @@ body {
     width: 500px;
 }
 
+@media (max-width: 600px) {
+    .content_container {
+        width: 90%;
+    }
+}
 .business_logo {
     width: 32rem;
+}
+
+@media (max-width: 600px) {
+    .business_logo {
+        width: 20rem;
+    }
 }
 
 .links_container {
@@ -49,6 +62,13 @@ body {
     background-color: var(--sand-light);
     border-radius: 1rem;
     border: 2px solid var(--sand-dark);
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+.link:hover {
+    transform: scale(1.025);
+    opacity: 80%;
 }
 
 .link_text {
